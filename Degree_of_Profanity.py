@@ -1,7 +1,7 @@
 import re                                              #importing useful Python library
 
 def tokenize(text):                                    #text here is the Instagram comment for which we want to check degree
-return re.findall(r'\w+', text.lower())
+  return re.findall(r'\w+', text.lower())
 
 profane_tokens = {"nerfherder", "shit"}                        #we have to provide few words which can be profane in this list
 
